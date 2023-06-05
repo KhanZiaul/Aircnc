@@ -5,7 +5,7 @@ import Search from "./Search";
 
 const Navigation = () => {
     return (
-        <div className="flext justify-between">
+        <div className="flex justify-between">
             <Logo></Logo>
             <Search></Search>
             <MenuDropdown></MenuDropdown>
