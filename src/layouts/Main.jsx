@@ -1,12 +1,14 @@
-import {
-  createBrowserRouter,
-} from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import Navigation from "../Pages/Shared/Navigation/Navigation";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <div>Hello world!</div>,
-  },
-]);
 
-export default router;
+const Main = () => {
+  return (
+    <div>
+      <Navigation></Navigation>
+      <Outlet></Outlet>
+    </div>
+  );
+};
+
+export default Main;
