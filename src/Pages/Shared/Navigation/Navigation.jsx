@@ -1,5 +1,5 @@
 import Logo from "./Logo";
-import Menu from "./Menu";
+import MenuDropdown from "./MenuDropdown";
 import Search from "./Search";
 
 
@@ -8,7 +8,7 @@ const Navigation = () => {
         <div className="flext justify-between">
             <Logo></Logo>
             <Search></Search>
-            <Menu></Menu>
+            <MenuDropdown></MenuDropdown>
         </div>
     );
 };
